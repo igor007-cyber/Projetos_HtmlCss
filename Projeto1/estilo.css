@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+/*=================================================================*/
+
+/* MEU MENU */
+#menu{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url('https://alexrosa.net/wp-content/uploads/2016/07/wallpaper_1366x768_workstation-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#links li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 20px;
+    margin-top: 20px;
+    padding: 15px;
+    border-left: 1px solid white;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin:10px;
+    margin-left: 40px;
+    padding: 15px;
+}
+
+#links li.tirar{
+    border-left: none;
+}
+/* FIM DO MEU MENU */
+
+/*===============================================================*/
+
+/* CONTEUDO 1: LINGUAGENNS DE PROGRAMAÇÃO */
+
+#linguagens{
+    width: 100%;
+    background-image: url("https://wallpaperaccess.com/full/2061120.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    text-align: left;
+    color: white; 
+}
+
+.tipos-de-linguagens{
+   width: 100%;
+   margin-top: 25px;
+   text-align: center;
+}
+
+h1{
+    padding-top: 2px;
+    padding-left: 20px;
+    font-size: 25px;
+    color:#0310BF;
+    width: 467px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+hr{
+    margin-top: 25px;
+}
+
+.img{
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+/* FIM DO CONTEUDO 1 */
+
+/*===========================================*/
+
+/* SOBRE MIM */
+
+#eu{
+    width: 100%;
+    background-image: url("https://images2.alphacoders.com/480/480530.png");
+    background-attachment: fixed;
+    color: white;
+}
+
+#eu img{
+   margin-top: 40px; 
+   margin-left: 120px;
+}
+
+#sobre{
+    text-align: justify;
+    width: 600px;
+    height: 400px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+#sobre h2, #sobre p{
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#sobre h2{
+    font-size: 30px;
+}
+
+#sobre p{
+    font-size: 20px;
+}
+/* FINAL: SOBRE MIM */
+
+/*=====================================*/
+
+/* CONTATO */
+
+#contato{
+    position: relative;
+    
+}
+
+.contato1{
+    display: inline-block;
+}
+
+.con{
+    position: absolute;
+    top: 20px;
+    left: 40%;
+}
+
+.tato{
+    position: absolute;
+    top:65px;
+    right: 254px;
+}
+/* FINAL: CONTATO */
