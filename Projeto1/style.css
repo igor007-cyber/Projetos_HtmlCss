@@ -1,0 +1,95 @@
+/*-------------- GERAL --------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+    color: white;   
+}
+
+/*-------------- GERAL - FINAL --------------*/
+
+/*-------------- MENU --------------*/
+
+.menu-desktop{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.links2{
+    display: none;
+    list-style-type: none;
+}
+
+.logo, .links{
+    padding: 2%;
+}
+
+.imagem{
+    display: none;
+}
+ 
+.links{
+    list-style-type: none;
+}
+
+.links li{
+    display: inline-block;
+} 
+
+.links li a{
+    margin:0 15px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.links2{
+    display: none;
+    list-style-type: none;
+    background-image: url("https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/55/000000/external-menu-multimedia-kiranshastry-gradient-kiranshastry.png");
+}
+
+.links2 li{
+    display: inline-block;
+    display: none;
+} 
+
+.links2 li a{   
+    margin:0 15px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.links li a:hover{
+    border-bottom: 1px solid white;
+}
+
+@media screen and (max-width:699px){
+    .links{
+        display: none;
+    }
+
+    .links2{
+        background-repeat: no-repeat;
+        display:block;
+        cursor: pointer;
+        padding: 8%;
+    }
+}
+
+/*-------------- MENU - FINAL --------------*/
